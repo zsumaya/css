@@ -200,7 +200,7 @@ input[type="submit"].blue {
   background: -o-linear-gradient(top, #70D3C4, #49BAA9);
   background: -webkit-linear-gradient(top, #70D3C4, #49BAA9);
   background: linear-gradient(top, #70D3C4, #49BAA9);
-  border: 1px solid #3079ed;
+  border: 1px solid #49BAA9;
   color: #fff;
 }
 
@@ -348,8 +348,8 @@ input[type="button"].action:active,
 input[type="button"].blue:active,
 input[type="submit"].action:active,
 input[type="submit"].blue:active {
-  background: #357ae8;
-  border: 1px solid #2f5bb7;
+  background: #49BAA9;
+  border: 1px solid #49BAA9;
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, .3);
