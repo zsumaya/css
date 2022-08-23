@@ -16,6 +16,28 @@ limitations under the License.
 
 */
 
+.collapsible {
+        background-color: #494A5B;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+
+.active, .collapsible:hover {
+        background-color: #555;
+    }
+
+ .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+
 /* CONTAINERS */
 
 body {
@@ -186,28 +208,6 @@ input[type="submit"] {
   display: inline-block;
   padding: 0;
 }
-
-.collapsible {
-        background-color: #494A5B;
-        color: white;
-        cursor: pointer;
-        padding: 18px;
-        width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-    }
-
-.active, .collapsible:hover {
-        background-color: #555;
-    }
-
- .content {
-        padding: 0 18px;
-        display: none;
-        overflow: hidden;
-        background-color: #f1f1f1;
 
 .button.action,
 .button.blue,
